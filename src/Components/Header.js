@@ -32,19 +32,19 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#about">
-                About
+                About Us
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#resume">
-                Resume
+                Team
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Services
               </a>
             </li>
 
@@ -59,22 +59,32 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
+              <h1 className="responsive-headline">HappiFest</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              <h3 style={{ color: "white" }}>
+                HappiFest is a dynamic startup specializing in crafting custom
+                software solutions tailored to meet unique business needs. With
+                a focus on innovation and user-centric design, we empower
+                businesses to streamline operations and enhance productivity. At
+                HappiFest, we turn complex challenges into seamless, efficient,
+                and joyful digital experiences.
+              </h3>
             </Fade>
             <hr />
-            <Fade bottom duration={2000}>
+            {/* <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
+                <a
+                  href="https://www.upwork.com/freelancers/~016c39dd60e55132eb"
+                  className="button btn project-btn"
+                >
+                  <i class="fa-brands fa-upwork"></i>UpWork
                 </a>
                 <a href={github} className="button btn github-btn">
                   <i className="fa fa-github"></i>Github
                 </a>
               </ul>
-            </Fade>
+            </Fade> */}
           </div>
         </div>
 
